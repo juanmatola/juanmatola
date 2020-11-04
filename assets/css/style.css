@@ -7,7 +7,8 @@ body{
     margin: 0;
     padding: 0;
     background-image: url(../img/bg.jpg);
-    background-position: center;
+    background-position: cover;
+    background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -23,7 +24,7 @@ p ,ul{
     margin: 80px 0px;
 }
 .section__title{
-    border-bottom: #ddcf4c solid 3px;
+    border-bottom: #222222 solid 3px;
 }
 /* Intro */
 .perfil {
@@ -47,23 +48,27 @@ p ,ul{
     padding: 0px 0px;
     margin: 20px 0px;
     cursor: pointer;
-    /* transition: all 0.5s ease-out; */
+    transition: all 0.5s ease-out;
     overflow: hidden;
     max-height: 220px;
-    transition: 1s;
 }
 
 .proyectos-box .box:hover{
     background: #FFF;
     box-shadow: 0 0 6px #4183D7;
     max-height: 600px;
-    transition: 1s;
+}
+.proyectos-box .box .box-title {
+    font-family: 'Share Tech', sans-serif;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .proyectos-box .box .box-text{
     margin:20px 0px;
     font-size: 15px;
     line-height: 30px;
+    padding: 0px 10px;
 }
 
 .proyectos-box .box .box-btn a{
