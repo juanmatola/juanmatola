@@ -43,18 +43,21 @@ p ,ul{
 .proyectos-box .box{
     background: rgba(255, 255, 255, 0.582);
     border: solid black 2px;
-    border-radius: 50%;
-    border-top-left-radius: 1%;
-    padding: 40px 10px;
+    border-radius: 1%;
+    padding: 0px 0px;
     margin: 20px 0px;
     cursor: pointer;
-    transition: all 0.5s ease-out;
+    /* transition: all 0.5s ease-out; */
+    overflow: hidden;
+    max-height: 220px;
+    transition: 1s;
 }
 
 .proyectos-box .box:hover{
     background: #FFF;
-    border-radius: 1%;
     box-shadow: 0 0 6px #4183D7;
+    max-height: 600px;
+    transition: 1s;
 }
 
 .proyectos-box .box .box-text{
