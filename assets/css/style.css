@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
 html{
     scroll-behavior: smooth;
 }
@@ -14,10 +16,55 @@ body{
     padding: 0;
     margin: 0;
 }
-#sobremi, #sobremi .row {
-    min-height: 100vh;
+p ,ul{
+    font-family: 'Share Tech', sans-serif;
+}
+.section{
+    margin: 80px 0px;
+}
+.section__title{
+    border-bottom: #ddcf4c solid 3px;
+}
+/* Intro */
+.perfil {
+    border: 4px solid black;
+    border-radius: 50%;
+    border-top-left-radius: 1%;
+    transition: .5s;
+}
+.perfil:hover {
+    border-top-left-radius: 50%;
+    transition: .5s;
 }
 
-.section{
-    min-height: 500px;
+
+/* Proyectos */
+
+.proyectos-box .box{
+    background: rgba(255, 255, 255, 0.582);
+    border: solid black 2px;
+    border-radius: 50%;
+    border-top-left-radius: 1%;
+    padding: 40px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 0.5s ease-out;
+}
+
+.proyectos-box .box:hover{
+    background: #FFF;
+    border-radius: 1%;
+    box-shadow: 0 0 6px #4183D7;
+}
+
+.proyectos-box .box .box-text{
+    margin:20px 0px;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.proyectos-box .box .box-btn a{
+    text-decoration: none;
+    color: #4183D7;
+    font-size: 16px;
 }
