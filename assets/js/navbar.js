@@ -18,7 +18,11 @@ class AnimatedNavbar {
         }
     }
     open () {
-        this.navbar.style.width = '100%';
+        if(this.viewportWidthObtain() < 768){
+            this.navbar.style.width = '70%';
+        }else{
+            this.navbar.style.width = '20%';
+        }
         this.status = 'open';
     }
     close () {
@@ -32,6 +36,9 @@ class AnimatedNavbar {
     changeButtonToClose () {
         this.button.innerHTML = '<i class="fas fa-times fa-2x"></i>';
         this.button.classList.replace('color-dark','color-white');
+    }
+    viewportWidthObtain(){
+        return document.documentElement.clientWidth;
     }
 }
 
