@@ -3,6 +3,9 @@ class AnimatedNavbar {
         this.navbar = document.getElementById(navId);
         this.button = document.getElementById(buttonId);
         this.status = 'closed';
+        this.lgWidth = '70%';
+        this.smWidth = '20%';
+        this.breakpoint = 768;
         this.init();
     }
     init () {
@@ -18,10 +21,10 @@ class AnimatedNavbar {
         }
     }
     open () {
-        if(this.viewportWidthObtain() < 768){
-            this.navbar.style.width = '70%';
+        if(this.viewportWidthObtain() < this.breakpoint){
+            this.navbar.style.width = this.lgWidth;
         }else{
-            this.navbar.style.width = '20%';
+            this.navbar.style.width = this.smWidth;
         }
         this.status = 'open';
     }
