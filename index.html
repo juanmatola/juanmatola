@@ -11,6 +11,8 @@
     <script src="https://kit.fontawesome.com/4657d46491.js" crossorigin="anonymous"></script>
     <!-- bootstrap 4 css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- AOS css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
 
@@ -34,19 +36,19 @@
 
     <section class="section container">
         <div class="row intro-row align-items-center justify-content-center">
-            <div class="col-12 col-md-4 p-5 mt-4 mt-md-0">
-                <img src="./assets/img/profile.jpg" class="img-fluid perfil" alt="Foto de perfil">
+            <div class="col-12 col-md-4 p-5 mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="100">
+                <img src="./assets/img/profile.jpg" class="img-fluid perfil" alt="Foto de perfil" >
                 <h2 class="text-center mt-2 d-none d-md-block">Juan Manuel Tola</h2>
             </div>
             <div class="col-12 col-md-8 text-right">
-                <h1 class="">¡Hola! Me llamo Juan Manuel <br>y soy <br><span class="display-4 ">Desarrollador Web</span></h1>
+                <h1 data-aos="zoom-in" data-aos-delay="100">¡Hola! Me llamo Juan Manuel <br>y soy <br><span class="display-4">Desarrollador Web</span></h1>
             </div>
         </div>
     </section>
 
     <section class="section container" id="sobremi">
-        <h2 class="text-center my-5 mt-md-0 "><span class="section__title">Sobre mi</span></h2>
-        <div class="row  justify-content-around">
+        <h2 class="text-center my-5 mt-md-0" data-aos="fade-left"><span class="section__title">Sobre mi</span></h2>
+        <div class="row  justify-content-around" data-aos="zoom-in" data-aos-delay="200">
             <div class="col-12 col-md-7 px-3 text-justify">
                 <h4 class="text-center">Técnico en Electrónica y estudiante de Ingeniería</h4>
                 <p>
@@ -72,8 +74,8 @@
     </section>
 
     <section class="section container proyectos-box" id="proyectos">
-        <h2 class="text-center my-5 mt-md-0 "><span class="section__title">Proyectos</span></h2>
-        <div class="row">
+        <h2 class="text-center my-5 mt-md-0" data-aos="fade-right"><span class="section__title">Proyectos</span></h2>
+        <div class="row" data-aos="zoom-in" data-aos-delay="200">
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="box">
                     <img src="./assets/img/proyectos/terrenos-rosario.png" class="img-fluid" alt="">
@@ -168,6 +170,11 @@
 
     <!-- Custom JS -->
     <script src="./assets/js/navbar.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
     <!-- bootstrap 4 JS 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
