@@ -19,6 +19,7 @@
     top: 10%;
     left: 5%;
     text-align: left;
+    padding-left: 20px;
 }
 .menu__content--social{
     display: flex;
@@ -33,6 +34,10 @@
     display: block;
     transition: 0.3s;
     font-weight: 500;
+}
+
+.menu a:hover {
+    color: #ded04b;
 }
   
 @media screen and (max-height: 450px) {
