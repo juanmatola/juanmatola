@@ -99,3 +99,9 @@ p ,ul, h2{
     margin-bottom: 20px;
     color: white;
 }
+.form input:focus, .form textarea:focus{
+    outline: none;
+} 
+.form input::placeholder, .form textarea::placeholder{
+    color: white;
+}
