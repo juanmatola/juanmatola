@@ -38,11 +38,9 @@ class AnimatedNavbar {
     }
     changeButtonToOpen () { 
         this.button.innerHTML = '<i class="fas fa-bars fa-2x"></i>';
-        this.button.classList.replace('color-white','color-dark');
     }
     changeButtonToClose () {
         this.button.innerHTML = '<i class="fas fa-times fa-2x"></i>';
-        this.button.classList.replace('color-dark','color-white');
     }
     viewportWidthObtain(){
         return document.documentElement.clientWidth;
