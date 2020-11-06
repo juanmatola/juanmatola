@@ -114,6 +114,7 @@ p, ul, h1, h2, h3, h4, form {
 .proyectos-box .box .box-btn a:hover::after {
     content: " <";
 }
+
 /* Contact me  */
 .form{
     width: 100%;
