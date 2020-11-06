@@ -80,3 +80,22 @@ p ,ul, h2{
     color: #4183D7;
     font-size: 16px;
 }
+
+/* Contact me  */
+.form{
+    width: 100%;
+    font-family: 'Share Tech', sans-serif;
+}
+.form input, .form textarea{
+    display: block;
+    background: #22222277;
+    border: none;
+    border-bottom: black solid 2px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 20px;
+    color: white;
+}
