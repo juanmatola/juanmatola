@@ -49,7 +49,12 @@ p ,ul, h2{
     cursor: pointer;
     transition: all 0.5s ease-out;
     overflow: hidden;
-    max-height: 220px;
+}
+
+.proyectos-box .box h3 {
+    font-family: 'Share Tech', sans-serif;
+    text-align: center;
+    padding-top: 10px;
 }
 
 .proyectos-box .box:hover{
@@ -57,12 +62,6 @@ p ,ul, h2{
     -webkit-box-shadow: 17px 15px 25px -15px rgba(0,0,0,0.75);
     -moz-box-shadow: 17px 15px 25px -15px rgba(0,0,0,0.75);
     box-shadow: 17px 15px 25px -15px rgba(0,0,0,0.75);
-    max-height: 600px;
-}
-.proyectos-box .box .box-title {
-    font-family: 'Share Tech', sans-serif;
-    text-align: center;
-    padding-top: 10px;
 }
 
 .proyectos-box .box .box-text{
@@ -71,10 +70,21 @@ p ,ul, h2{
     line-height: 30px;
     padding: 0px 10px;
 }
+
+.proyectos-box .box .box-content{
+    max-height: 50px;
+    transition: all 0.8s ease-out;
+}
+
+.proyectos-box .box:hover .box-content {
+    max-height: 600px;
+}
+
 .proyectos-box .box .box-btn{
     text-align: center;
     padding: 10px;
 }
+
 .proyectos-box .box .box-btn a{
     text-decoration: none;
     color: #4183D7;
