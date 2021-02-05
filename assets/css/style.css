@@ -115,19 +115,45 @@ p, ul, h1, h2, h3, h4, form {
     content: " <";
 }
 
+/* Call To Action */
+
+.call-to-action{
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    /* background-color: rgba(255, 255, 255, 1) !important; */
+    border-radius: 100px 0px 0 100px;
+}
+.call-to-action h2 {
+    margin: 0;
+    margin-top: 12px;
+}
+
 /* Contact me  */
 .form{
     width: 100%;
 }
-.form button {
+.btn_primary {
     padding: 8px 10px 0px 10px;
     background-color: #dccf4c;
     transition: .5s all;
     outline: none !important;
 }
-.form button:hover {
+.btn_primary:hover {
     background-color: #1f1f1f;
     color: #dccf4c;
+}
+.btn_secondary {
+    padding: 8px 10px 8px 10px;
+    background-color: #1f1f1f;
+    color: #dccf4c;
+    transition: .5s all;
+    outline: none !important;
+}
+.btn_secondary:hover {
+    background-color: #dccf4c;
+    color: #1f1f1f;
+    border: solid #1f1f1f 1px;
+    border-radius: 0px 20px 20px 20px;
+    padding: 15px;
 }
 .form input, .form textarea{
     display: block;
