@@ -1,3 +1,3 @@
-- 👋 Hi, I’m @juanmatola, Java - Spring Boot backend developer
+- 👋 Hi, I’m @juanmatola, Java developer
 - 👀 I’m interested in software development
 - 📫 How to reach me: tolajuanmanuel@gmail.com
